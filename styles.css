@@ -1,0 +1,263 @@
+body {
+    background-color: black;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 25px;
+    background-color: rgb(51, 47, 47);
+}
+
+nav .nav-options {
+    display: flex;
+    gap: 50px;
+}
+
+.intro-div {
+    background-image: url("https://i.pinimg.com/736x/42/8e/d3/428ed34fb7aa163f237864b79c09a38e.jpg");
+    height: 450px;
+    width: 100vw;
+    background-color: rgba(39, 38, 38, 0.404);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.overlay {
+    background-color: rgba(10, 10, 10, 0.733);
+    height: 450px;
+    width: 100vw;
+    z-index: 5;
+    position: absolute;
+}
+
+h1 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 50px;
+    z-index: 9;
+}
+
+h1 span {
+    display: inline-flex;
+    opacity: 1;
+}
+
+.popular-h1 {
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-h1 h5 {
+    font-size: 30px;
+}
+
+.icon {
+    height: 35px;
+    width: 40px;
+    font-size: 30px;
+}
+
+.hr1 {
+    height: 60px;
+    margin: 2px;
+}
+
+.hr2 {
+    height: 60px;
+    margin: 2px;
+}
+
+.hrt1 {
+    width: 180px;
+}
+
+.hrt2 {
+    width: 180px;
+}
+
+.popular-food-items {
+    height: 50vw;
+    width: 100vw;
+    margin-top: 40px;
+    padding-top: 80px;
+    display: flex;
+}
+
+.popular-foods {
+    height: 550px;
+}
+
+.items {
+    padding: 0px 10px;
+    opacity: 1;
+    overflow-x: hidden;
+    height: 270px;
+    width: 100%;
+    transform: "translateX(-100%)",
+}
+
+.hover-effect {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hover-effect img {
+    transform: scale(1.1);
+}
+
+.items img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    gap: 3vw;
+}
+
+p {
+    margin: 2px;
+}
+
+.item-name {
+    text-align: center;
+    font-size: 35px;
+}
+
+.item-price {
+    text-align: center;
+    font-size: 15px;
+}
+
+.offer-food {
+    background-image: url("https://plus.unsplash.com/premium_photo-1675695700399-d017e858209e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#offerDetails {
+    color: white;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+#offerDetails h3 {
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+#offerDetails p {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+#offerDetails button {
+    margin-top: 70px;
+    margin-left: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(26, 25, 24, 0.733);
+}
+
+#string-box {
+    height: 600px;
+    width: 100vw;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#string-box p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#string1 {
+    width: 1000px;
+    height: 100px
+}
+
+#string2 {
+    width: 1000px;
+    height: 100px
+}
+
+#fd1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+#fd2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+#fd3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+#food h1 {
+    text-align: center;
+}
+
+.f img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    gap: 3vw;
+}
+
+#contact-us {
+    background-color: rgba(20, 16, 48, 0.466);
+    height: 40vh;
+    width: 100vw;
+    padding-top: 120px;
+}
+
+#contact-us h3 {
+    text-align: center;
+}
+
+#details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 400px;
+}
+
+#extro {
+    background-color: rgba(37, 34, 34, 0.795);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
